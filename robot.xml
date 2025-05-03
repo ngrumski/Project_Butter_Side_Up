@@ -1,0 +1,11 @@
+<mujoco>
+    <!-- <asset>
+        <mesh file="Alan.obj" inertia="convex" scale= "0.83542188805 0.83542188805 0.83542188805"/>
+    </asset> -->
+    <body pos="0 0 1">
+        <joint type="free"/>
+        <inertial mass="10.8"/>
+        <geom type="box" size="1 1 1" rgba=".5 0 0 1"/>
+        <!-- <geom type="mesh" mesh="Alan"/> -->
+    </body>
+</mujoco>
